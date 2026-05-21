@@ -42,3 +42,23 @@ path('', index, name='index'),
 
 runserver
 python manage.py runserver
+
+
+project3:-
+
+
+django-admin startproject djangoproject3
+django-admin startapp app
+
+write models in models.py file and register models in admin
+
+python manage.py createsuperuserE
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+
+login to /admin with your credentials
+
+
+
